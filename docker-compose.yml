@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  postgres:
+    image: "postgres"
+    ports:
+      - "5432"
+  app:
+    image: "sammons/docker-example:10.0"
+    ports:
+      - "3000"
+    volumes:
+      - ./config.json:/app/config.json

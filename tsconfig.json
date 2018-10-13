@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "target": "es3",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "types": [
+      "node"
+    ],
+    "rootDirs": [
+      "src",
+      "test"
+    ],
+    "outDir": "./built",
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "exclude": [
+    "node_modules",
+    "built"
+  ]
+}
